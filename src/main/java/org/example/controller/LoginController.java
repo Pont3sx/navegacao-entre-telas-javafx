@@ -13,7 +13,7 @@ public class LoginController {
     @FXML
     public void entrar(ActionEvent evento) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/fxml/TelaLogin.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/fxml/TelaPrincipal.fxml"));
             Scene scene = new Scene(root);
             Stage stage = (Stage) ((Node)evento.getSource()).getScene().getWindow();
             stage.setScene(scene);

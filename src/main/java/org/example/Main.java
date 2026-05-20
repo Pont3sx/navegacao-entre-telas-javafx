@@ -15,7 +15,7 @@ public class Main extends Application {
 
         Scene scene = new Scene(root);
 
-        stage.setTitle("Sistema");
+        stage.setTitle("Sistema de Acesso");
         stage.setScene(scene);
         stage.show();
     }
